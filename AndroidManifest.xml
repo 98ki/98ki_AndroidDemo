@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="cn.trinea.android.demo"
+    package="com.ki.android.demo"
     android:versionCode="50"
     android:versionName="3.2.5" >
 
@@ -22,7 +22,7 @@
         <service android:name=".MyIntentService" />
         <service android:name=".MyAIDLService" >
             <intent-filter>
-                <action android:name="cn.trinea.android.demo.remote.MyAIDLServiceAction" />
+                <action android:name="com.ki.android.demo.remote.MyAIDLServiceAction" />
             </intent-filter>
         </service>
 

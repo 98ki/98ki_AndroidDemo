@@ -17,13 +17,13 @@
         android:layout_height="@dimen/view_pager_height"
         android:layout_below="@+id/auto_scroll_view_pager_inner" />
 
-    <TextView
-        android:id="@+id/view_pager_index"
+   <com.viewpagerindicator.CirclePageIndicator
+        android:id="@+id/cpi_indicator"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_below="@+id/view_pager"
+        android:layout_alignBottom="@+id/view_pager"
         android:layout_centerHorizontal="true"
-        android:textSize="14sp" />
+        android:padding="@dimen/dp_8" />
 
     <include
         android:layout_width="match_parent"
